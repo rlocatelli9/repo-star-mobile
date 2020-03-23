@@ -1,31 +1,26 @@
-<h1 align="center">
-<img alt="" title="" src="" width="" />
-
-</h1>
-
-<h2 align="center">RepoStar App</h2>
+<h1 align="center">RepoStar App</h1>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rlocatelli9/template-README">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rlocatelli9/repo-star-mobile">
   <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rlocatelli9/template-README">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rlocatelli9/repo-star-mobile">
   <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
 
-  <a href="https://github.com/rlocatelli9/template-README/commits/master">
+  <a href="https://github.com/rlocatelli9/repo-star-mobile/commits/master">
   <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rlocatelli9/template-README">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rlocatelli9/repo-star-mobile">
      <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
   </a>
 
-  <a href="https://github.com/rlocatelli9/template-README/issues">
+  <a href="https://github.com/rlocatelli9/repo-star-mobile/issues">
    <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/rlocatelli9/template-README">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/rlocatelli9/repo-star-mobile">
      <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
 
   </a>
 
-  <a href="https://github.com/rlocatelli9/template-README/blob/master/LICENSE.md">
+  <a href="https://github.com/rlocatelli9/repo-star-mobile/blob/master/LICENSE.md">
   <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
   <a>
@@ -39,6 +34,10 @@
 </p>
 
 <br>
+
+<h2 align="center">
+<img alt="" title="" src=".github/assets/app.png" width="" />
+</h2>
 
 ## :bookmark_tabs: Tecnologias
 
