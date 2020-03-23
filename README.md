@@ -49,6 +49,8 @@ Highlight technologies:
 - [Styled Components](https://styled-components.com/)
 - [WebView](https://github.com/react-native-community/react-native-webview)
 - [AsyncStorage](https://reactnative.dev/docs/asyncstorage)
+- [React Natigation - v5 ](https://reactnavigation.org)
+
 
 ## 💻 Projeto
 
