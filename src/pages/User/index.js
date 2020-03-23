@@ -27,12 +27,17 @@ export default function User({route, navigation}) {
   const {user} = route.params;
 
   async function loadData() {
-    setLoading(true);
-    const response = await api.get(`/users/${user.login}/starred`);
-    const {data} = response;
-    setStars(data);
-    setLoading(false);
-    setRefreshing(false);
+    try {
+      setLoading(true);
+      const response = await api.get(`/users/${user.login}/starred`);
+      const {data} = response;
+      setStars(data);
+      setLoading(false);
+      setRefreshing(false);
+    } catch (error) {
+      // ADD THIS THROW error
+      throw error;
+    }
   }
 
   useEffect(() => {
@@ -40,12 +45,17 @@ export default function User({route, navigation}) {
   }, []);
 
   async function starsMore(numberPage) {
-    const response = await api.get(
-      `/users/${user.login}/starred?page=${numberPage}`,
-    );
-    const {data} = response;
-    setStars([...stars, ...data]);
-    setPage(numberPage);
+    try {
+      const response = await api.get(
+        `/users/${user.login}/starred?page=${numberPage}`,
+      );
+      const {data} = response;
+      setStars([...stars, ...data]);
+      setPage(numberPage);
+    } catch (error) {
+      // ADD THIS THROW error
+      throw error;
+    }
   }
 
   function loadMore() {

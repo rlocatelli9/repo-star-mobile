@@ -29,7 +29,8 @@ export default function Main({navigation}) {
       const valueParsed = JSON.parse(valueString);
       setUsers(valueParsed);
     } catch (error) {
-      console.tron.log(error);
+      // ADD THIS THROW error
+      throw error;
     }
   }
 
